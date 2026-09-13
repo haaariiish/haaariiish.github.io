@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harish Prabakaran</title>
+<meta name="description" content="Harish Prabakaran — research on deep learning for medical and scientific data.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='Georgia,serif'>H</text></svg>">
+<style>
+  :root {
+    --bg: #fdfdfc;
+    --fg: #1b1b1a;
+    --muted: #6a6a66;
+    --rule: #e2e1dd;
+    --link: #1b1b1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16161a;
+      --fg: #e8e8e4;
+      --muted: #9a9a94;
+      --rule: #2e2e33;
+      --link: #e8e8e4;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 6rem;
+  }
+
+  /* Header */
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  .now {
+    margin: 0.4rem 0 0;
+    font-size: 1rem;
+  }
+  .now a { border-bottom: 1px solid var(--rule); }
+  .affil {
+    margin: 0.15rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .contact {
+    margin: 1.5rem 0 0;
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+  .contact a { margin-right: 1.1rem; }
+
+  /* Sections */
+  h2 {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin: 3.5rem 0 0;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .item { margin-top: 1.8rem; }
+  .item-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 1rem;
+  }
+  .item-title { font-weight: 600; }
+  .item-date {
+    color: var(--muted);
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  .item-sub {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .item p { margin: 0.5rem 0 0; }
+  .meta {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  a:hover { border-bottom-color: var(--fg); }
+
+  footer {
+    margin-top: 4.5rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 600px) {
+    .wrap { padding-top: 3rem; }
+    h1 { font-size: 1.7rem; }
+    .item-date { font-size: 0.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Harish Prabakaran</h1>
+    <p class="now"> Keio University — Japan</p>
+    <p class="affil">MSc Engineering, Keio University · Double degree with École Centrale de Lyon</p>
+
+    <p class="contact">
+      <a href="https://github.com/haaariiish" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/harish-prabakaran/" rel="noopener">LinkedIn</a>
+    </p>
+  </header>
+
+  <h2>Experience</h2>
+
+  <div class="item">
+    <div class="item-head">
+      <span class="item-title">Research Project — Otsuki Lab</span>
+      <span class="item-date">Oct 2025 — present</span>
+    </div>
+    <div class="item-sub">Kanagawa, Japan</div>
+    <p>Studying deep learning models to detect Parkinson's disease via facial movements, and generating synthetic data to ensure patient privacy. Convolutional neural networks, Facial Action Coding System, domain adversarial neural networks.</p>
+    <p class="meta">Python, PyTorch</p>
+  </div>
+
+  <div class="item">
+    <div class="item-head">
+      <span class="item-title">Internship — Laboratoire de Biochimie Théorique (CNRS)</span>
+      <span class="item-date">Apr — Jul 2025</span>
+    </div>
+    <div class="item-sub">Paris, France</div>
+    <p>Studying deep learning models for the generation of new pharmaceutical molecules via textual representations. Transformer-decoder (GPT) model and Monte-Carlo tree search.</p>
+    <p class="meta">Python, HuggingFace, PyTorch</p>
+  </div>
+
+  <div class="item">
+    <div class="item-head">
+      <span class="item-title">Research Project — Centrale Lyon</span>
+      <span class="item-date">Oct 2024 — Apr 2025</span>
+    </div>
+    <div class="item-sub">Écully, France</div>
+    <p>Machine learning inversion model inspired by insect behaviour to locate pollutant sources. Reinforcement learning, PPO policy.</p>
+    <p class="meta">Python, TensorFlow, Stable-Baselines3, PyTorch</p>
+  </div>
+
+  <h2>Publication</h2>
+
+  <div class="item">
+    <p>Reboul et al. (2025). <a href="https://doi.org/10.1021/acs.jcim.4c02261" rel="noopener">Improving the Reliability of Molecular String Representations for Generative Chemistry</a>. <em>Journal of Chemical Information and Modeling</em>, 65.</p>
+  </div>
+
+  
+</div>
+</body>
+</html>
